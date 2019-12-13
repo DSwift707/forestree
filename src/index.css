@@ -11,3 +11,46 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+.marker{
+  position: relative;
+  background-color: #fff;
+}
+.tree-pin{
+  position: absolute;
+  width: 10px;
+  height: 20px;
+  left: -5px;
+  top: -20px;
+}
+
+.pin-tree {
+  font-family: 'Lato', sans-serif;
+position: relative;
+width: -moz-fit-content;
+width: fit-content;
+margin: 0 auto;
+cursor: pointer;
+height: 250px;
+padding: 0px 7px;
+margin-bottom: 40px;
+color: #4a6741;
+z-index: 100;
+text-align: center;
+border: 1px solid #4a6741;
+border-radius: 6px;
+transition: background-color .5s;
+}
+
+.pin-tree:hover{
+  background-color: #bccea0;
+}
+.pin-tree:active{
+  background-color: gold;
+}
+
+img.pine-button {
+    display: block;
+    z-index: 10;
+    margin:0 auto;
+    margin-top: 10px;
+}
